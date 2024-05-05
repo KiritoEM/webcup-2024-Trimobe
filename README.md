@@ -49,6 +49,6 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
 
 ## Membres de l' équipe Trimobe
 -MAHAZARA Ginot d'avis 
-RAKOTOMALALA Herifanantenana andriantseheno  
+-RAKOTOMALALA Herifanantenana andriantseheno  
 -EMADISSON Nirina johannès loick 
 -RABEMANANTSOA Sedra ny aina 
