@@ -46,4 +46,9 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
       ```bash
      http://localhost:3003/api/auth/register dans la fonction signup
      http://localhost:3003/api/auth/login dans la fonction login
-    
+
+## Membres de l' équipe Trimobe
+-MAHAZARA Ginot d'avis 
+RAKOTOMALALA Herifanantenana andriantseheno  
+-EMADISSON Nirina johannès loick 
+-RABEMANANTSOA Sedra ny aina 
