@@ -17,10 +17,12 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
 ## Installation pour tester le site en local
 
 1. Cloner le projet depuis GitHub :
+
    ```bash
    git clone https://github.com/KiritoEM/webcup-2024-Trimobe
 
-2. Installer les packages de React TS
+3. Installer les packages de React TS
+
     ```bash
       cd front
       npm install
