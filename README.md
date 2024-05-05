@@ -27,3 +27,11 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
       cd front
       npm install
       npm run dev
+    
+4. Pour utiliser React TS en local avec node JS
+
+     ```bash
+     dans /front/src/services/authServices, remplacer l' URL hébergé par :
+     http://localhost:3003/api/auth/register dans la fonction signup
+     http://localhost:3003/api/auth/login dans la fonction login
+    
