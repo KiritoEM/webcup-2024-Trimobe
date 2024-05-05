@@ -21,8 +21,9 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
    ```bash
    git clone https://github.com/KiritoEM/webcup-2024-Trimobe
 
-3. Installer les packages de React TS
+3. Installer les packages de React TS et le lancer
 
     ```bash
       cd front
       npm install
+      npm run dev
