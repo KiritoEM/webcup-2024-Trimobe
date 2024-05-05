@@ -1,4 +1,5 @@
-# Nom du Projet
+![Texte alternatif](frontend/public/logo.svg)
+# Divine Deliveries
 
 ## Description
 Une brève description de votre projet.
