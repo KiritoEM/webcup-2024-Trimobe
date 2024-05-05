@@ -48,7 +48,7 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
      http://localhost:3003/api/auth/login dans la fonction login
 
 ## Membres de l' équipe Trimobe
--MAHAZARA Ginot d'avis 
--RAKOTOMALALA Herifanantenana andriantseheno  
--EMADISSON Nirina johannès loick 
--RABEMANANTSOA Sedra ny aina 
+- MAHAZARA Ginot d'avis 
+- RAKOTOMALALA Herifanantenana andriantseheno  
+- EMADISSON Nirina johannès loick 
+- RABEMANANTSOA Sedra ny aina 
