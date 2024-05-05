@@ -10,9 +10,9 @@ En plus des interventions individuelles, Divine Delivery propose des espaces de 
 
 Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a besoin, quand il en a besoin, offrant ainsi un nouveau niveau de confort, de guérison et d'inspiration dans la vie de tous les jours
 
-## Prérequis
+## Prérequis pour lancer notre site web
 - Node.js
-- npm (ou Yarn)
+- npm 
 
 ## Installation
 
