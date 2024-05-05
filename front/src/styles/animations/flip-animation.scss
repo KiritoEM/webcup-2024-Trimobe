@@ -1,0 +1,11 @@
+.flip-center {
+    opacity: 0;
+    transform: rotateX(90deg);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.flip-show__center {
+    opacity: 1;
+    transform: rotateX(0);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}

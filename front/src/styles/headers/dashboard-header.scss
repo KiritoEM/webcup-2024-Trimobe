@@ -1,0 +1,110 @@
+.dashboard-header {
+    width: 100%;
+    height: 3.4rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .search-bar {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        height: 100%;
+
+        img {
+            width: 18px;
+            height: 18px;
+            position: absolute;
+            margin-left: 14px;
+        }
+
+        input {
+            width: 100%;
+            flex: 1 0 0;
+            background: hsl(0, 0%, 10%);
+            border-radius: 8px;
+            border: none;
+            padding: 0 10px;
+            height: 100%;
+            font-size: 15px;
+            padding-left: 40px;
+            padding-right: 20px;
+            color: #AEB9E1;
+
+            &::placeholder {
+                color: #AEB9E1;
+            }
+        }
+
+        .dashboard-header {
+            width: 100%;
+            height: 5rem;
+            display: flex;
+
+            .search-bar {
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 18px;
+                    height: 18px;
+                    position: absolute;
+                    margin-left: 14px;
+                }
+
+                input {
+                    width: 100%;
+                    flex: 1 0 0;
+                    background: #191919;
+                    border-radius: 8px;
+                    border: none;
+                    padding: 14px 10px;
+                    font-size: 15px;
+                    padding-left: 40px;
+                    padding-right: 20px;
+                    color: #AEB9E1;
+
+                    &:focus {
+                        outline: none;
+                    }
+
+                    &::placeholder {
+                        color: #AEB9E1;
+                    }
+                }
+            }
+        }
+    }
+
+    .notification {
+        height: 100%;
+        background-color: #191919;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        img {
+            padding: 0 15px;
+        }
+    }
+
+    .user {
+        padding: 0 18px;
+        height: 100%;
+        background-color: #191919;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        cursor: pointer;
+
+        p {
+            color: $white02;
+
+            span {
+                font-family: "GeneralSans-Medium";
+            }
+        }
+    }
+}

@@ -1,0 +1,111 @@
+//vaiables
+$radius : 50px;
+$white01 : #ffffff8c;
+$white02 : #fff;
+$white03 : #A6AEB6;
+$white04 : #F2F2F7;
+$white05 : #3D3C3C;
+$white06 : #FEFEFE;
+$black01 : #030303;
+$yellow01 : #FFD700;
+
+$black01: #090909;
+$black02 : #030303;
+
+//fonction pour le responsive
+@mixin screen($breakpoint) {
+    @if $breakpoint==small {
+        @media (max-width: 767px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint==medium {
+        @media (min-width: 768px) and (max-width: 1023px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint==large {
+        @media (min-width: 1024px) {
+            @content;
+        }
+    }
+}
+
+@mixin screen-x($min, $max) {
+    @media screen and (min-width: $min) and (max-width: $max) {
+        @content;
+    }
+}
+
+//importation des fonts
+$font-path: '../assets/fonts/';
+
+$font-weights: ('extralight': 200,
+    'Light': 300,
+    'Regular': 400,
+    'Medium': 500,
+    'Semibold': 600,
+    'Bold': 700,
+);
+
+$default-font-weight: 400;
+
+@each $variant,
+$weight in $font-weights {
+    @font-face {
+        font-family: 'GeneralSans-#{$variant}';
+        src: url('#{$font-path}GeneralSans-#{$variant}.woff2') format('woff2'),
+        url('#{$font-path}GeneralSans-#{$variant}.woff') format('woff'),
+        url('#{$font-path}GeneralSans-#{$variant}.ttf') format('truetype');
+        font-weight: if($weight, $weight, $default-font-weight);
+        font-display: swap;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'GeneralSans-#{$variant}Italic';
+        src: url('#{$font-path}GeneralSans-#{$variant}Italic.woff2') format('woff2'),
+        url('#{$font-path}GeneralSans-#{$variant}Italic.woff') format('woff'),
+        url('#{$font-path}GeneralSans-#{$variant}Italic.ttf') format('truetype');
+        font-weight: if($weight, $weight, $default-font-weight);
+        font-display: swap;
+        font-style: italic;
+    }
+}
+
+@font-face {
+    font-family: 'CalSans-SemiBold';
+    src: url('#{$font-path}CalSans-SemiBold.woff2') format('woff2'),
+    url('#{$font-path}CalSans-SemiBold.woff') format('woff'),
+    url('#{$font-path}CalSans-SemiBold.ttf') format('truetype');
+    font-display: swap;
+    font-style: italic;
+}
+
+//styles globales du site
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "GeneralSans-Regular", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+li,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0 !important;
+}
+
+button {
+    font-size: 15px !important;
+}

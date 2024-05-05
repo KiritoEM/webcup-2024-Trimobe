@@ -1,0 +1,26 @@
+.auth-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 7px;
+
+    label {
+        color: $white02;
+        font-size: 14px;
+    }
+
+    input {
+        width: 100%;
+        border-radius: 12px;
+        border: 1px solid #363F54;
+        background: #20242D;
+        height: 40px;
+        padding: 10px;
+        font-size: 14px;
+        color: $white02;
+
+        &:focus {
+            outline: 1px solid $yellow01;
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.landing__footer {
+  padding: 86px 147px;
+  background-color: $black01;
+  h2 {
+    text-align: center;
+    color: #fefefe;
+    font-family: "CalSans-Semibold";
+    font-size: 35px;
+    margin-bottom: 50px !important;
+  }
+  .footer {
+    &-button {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 88px !important;
+      button {
+        font-size: 14px;
+        padding: 12px 36px;
+        border-radius: 5px;
+        border: 1px solid transparent;
+        font-family: "CalSans-Semibold";
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        &.btn-dark {
+          color: #fefefe;
+          border-color: #fefefe;
+          background-color: $black01 !important;
+        }
+        &.btn-light {
+          color: $black01;
+          background-color: #fefefe !important;
+        }
+      }
+    }
+    &-nav {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 70px !important;
+      .nav-item {
+        h4 {
+          color: $white02;
+          text-transform: uppercase;
+          font-size: 15px;
+          font-family: "CalSans-Semibold";
+        }
+        ul {
+          padding: 0;
+          margin-top: 16px;
+          li {
+            margin-top: 4px;
+            color: #CCCCCC;
+            font-family: "GeneralSans-Regular";
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    &-footer {
+      hr {
+        margin: 0;
+        color: $white03;
+      }
+      &-content {
+        margin-top: 38px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "GeneralSans-Regular";
+        color: #CCCCCC;
+        .logo {
+          width: 157px;
+        }
+        .icon-social {
+          display: flex;
+          gap: 10px;
+          a {
+            color: #CCCCCC;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}

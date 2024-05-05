@@ -1,0 +1,15 @@
+.dashboard__home {
+    background-color: $black02;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    display: flex;
+
+    .home-content {
+        position: relative;
+        left: 350px;
+        width: calc(100% - 350px);
+        padding: 35px;
+    }
+}

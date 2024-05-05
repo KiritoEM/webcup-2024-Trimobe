@@ -1,0 +1,93 @@
+.dashboard-nav {
+    width: 365px;
+    position: fixed;
+    height: 100vh;
+    padding: 35px;
+
+    .nav-container {
+        border-radius: 20px;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(129deg, rgba(61, 61, 61, 0.35) -0.03%, rgba(74, 74, 74, 0.35) 47.74%, rgba(43, 43, 43, 0.35) 102.86%, rgba(14, 14, 14, 0.35) 154.31%);
+        padding: 35px 25px;
+
+        .nav-items {
+            margin-top: 9vh;
+            height: max-content;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+                padding-left: 0;
+
+                li {
+                    height: 42px;
+                    border-radius: 7px;
+                    background: #181818;
+                    font-family: "GeneralSans-Medium";
+                    color: #AEB9E1;
+                    font-size: 15px;
+                    display: flex;
+                    align-items: center;
+                    padding: 5px 12px;
+                    gap: 8px;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: $yellow01;
+                    }
+                }
+
+                #nav-active {
+                    color: $yellow01;
+                }
+            }
+        }
+
+        .line {
+            width: 100%;
+            height: 1px;
+            background-color: #fff;
+            opacity: 0.2;
+            margin-top: 4vh;
+        }
+
+        .settings {
+            height: 42px;
+            border-radius: 7px;
+            background: #181818;
+            font-family: "GeneralSans-Medium";
+            color: #AEB9E1;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            margin-top: 4vh;
+            padding: 5px 12px;
+            gap: 15px;
+        }
+
+        .account {
+            margin-top: 4vh;
+            display: flex;
+            gap: 7px;
+
+            img {
+                width: 40px;
+                height: 40px;
+            }
+
+            h6 {
+                color: $white02;
+                font-family: "GeneralSans-Medium";
+            }
+
+
+            p {
+                color: #AEB9E1;
+                font-size: 15px;
+                font-family: "GeneralSans-Medium";
+            }
+        }
+    }
+}

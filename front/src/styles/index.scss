@@ -1,0 +1,36 @@
+@import "./settings";
+
+//styles navbar
+@import "./navbar/landing-navbar.scss";
+@import "./navbar/dashboard-navbar.scss";
+
+//styles landing
+@import "./landing.scss";
+
+//card styles
+@import "./cards/about-card.scss";
+@import "./cards/tarif-card.scss";
+@import "./cards/angel-card.scss";
+
+//auth styles
+@import "./auth.scss";
+
+//header styles
+@import "./headers/auth-header.scss";
+@import "./headers/dashboard-header.scss";
+
+//inputs styles
+@import "./inputs/auth-input.scss";
+
+//styles dashboard
+@import "./dashboard-home.scss";
+@import "./dashboard-video.scss";
+
+//chatbot styles
+@import "./chat-bot/chatbot-container.scss";
+
+//animations styles
+@import "./animations/fade-animation.scss";
+@import "./animations/flip-animation.scss";
+
+@import "./sections/dashboard/dashboard-first.scss";

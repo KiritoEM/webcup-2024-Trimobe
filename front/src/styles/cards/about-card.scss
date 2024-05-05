@@ -1,0 +1,57 @@
+.about-card {
+    height: 380px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border-radius: 15px;
+    background: linear-gradient(127deg, rgba(31, 31, 31, 0.35) 0%, rgba(44, 44, 44, 0.35) 20.31%, rgba(43, 43, 43, 0.35) 43.75%, rgba(14, 14, 14, 0.35) 65.63%);
+    overflow: hidden;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        h4 {
+            color: #fff;
+            font-family: "GeneralSans-Semibold";
+        }
+
+        p {
+            color: $white01;
+            text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+        }
+    }
+}
+
+#soutien {
+    .content {
+        padding-top: 35px;
+    }
+}
+
+#solution {
+    .solution {
+        margin-top: 35px;
+    }
+    p {
+        width: 370px;
+    }
+}
+#deliver {
+
+    p {
+        width: 280px;
+    }
+}
+#message {
+    h4 {
+        width: 280px;
+    }
+    p {
+        width: 260px;
+    }
+}

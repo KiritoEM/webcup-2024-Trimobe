@@ -1,0 +1,36 @@
+.landing__tarif {
+  width: 100%;
+  background-image: url("/tarif-bg.webp");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  padding: 86px 147px;
+
+  .tarif-content {
+    .header h2 {
+      font-size: 56px;
+      width: 450px;
+      font-family: "CalSans-Semibold";
+      background: var(--primary-linear, linear-gradient(171deg, #FBFBFB 6.58%, #B3B3B3 187.51%));
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      span {
+        font-family: "CalSans-Semibold"; 
+        background: $yellow01;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    .content {
+      margin-top: 110px;
+    }
+    .row {
+      display: flex;
+      gap: 31px;
+    }
+  }
+
+}

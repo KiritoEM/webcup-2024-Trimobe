@@ -1,0 +1,104 @@
+.landing__hero {
+  padding: calc(13px + 58px) 88px;
+  background-image: url("/hero-bg.webp");
+  background-size: cover;
+  height: max-content;
+
+  .hero-content {
+    width: 700px;
+    margin-top: 6rem;
+
+    .btn-top {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 6px 13px;
+      font-size: 13px;
+      border: 1px solid #222;
+      border-radius: 10px;
+      color: $white01;
+      background-color: rgba(254, 254, 254, 0.18);
+
+      span {
+        color: $white02;
+        font-family: "GeneralSans-Medium";
+      }
+
+      img {
+        width: 16px;
+        margin-left: 10px;
+        border: 2px;
+      }
+    }
+
+    .title {
+      h1 {
+        font-size: 84px;
+        margin-top: 32px;
+        font-weight: 600;
+        line-height: 110%;
+        font-family: "CalSans-SemiBold";
+        background: var(--primary-linear, linear-gradient(171deg, #FBFBFB 6.58%, #B3B3B3 187.51%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        width: 670px;
+
+        span {
+          background: #FFD700;
+          font-family: "CalSans-SemiBold";
+          background-clip: text;
+          font-family: "CalSans-SemiBold";
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+    }
+
+    p {
+      margin-top: 16px;
+      color: $white03;
+    }
+
+    .btn-bottom {
+      margin-top: 36px;
+      font-weight: 500;
+      background: #FEFEFE;
+      font-family: "GeneralSans-Medium";
+      border-radius: 30px;
+      font-size: 18px;
+      padding: 9px 21px;
+    }
+
+  }
+
+  .input-group {
+    position: relative;
+    width: 420px;
+    margin-top: 24px;
+
+    input {
+      color: #F2F2F7;
+      border: 0;
+      width: 100%;
+      padding: 10px 115px 10px 24px;
+      font-family: "GeneralSans-Regular";
+      border-radius: 30px !important;
+      border: 0.5px solid #CDCDCD;
+      background: var(--grey-700, #2D2D2F);
+    }
+
+    button {
+      position: absolute;
+      right: 5px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: var(--primary-linear, linear-gradient(171deg, #FBFBFB 6.58%, #B3B3B3 187.51%));
+      border-radius: 30px !important;
+      padding: 8px 24px !important;
+      color: #000;
+      font-family: "GeneralSans-Medium";
+      border: 0;
+    }
+  }
+}

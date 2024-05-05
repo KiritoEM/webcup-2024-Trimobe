@@ -1,0 +1,164 @@
+.chatbot-window {
+    width: 360px;
+    height: 470px;
+    background: linear-gradient(0deg, #252526 0%, #252526 100%), linear-gradient(127deg, rgba(61, 61, 61, 0.35) 0%, rgba(74, 74, 74, 0.35) 20.31%, rgba(43, 43, 43, 0.35) 43.75%, rgba(14, 14, 14, 0.35) 65.63%), var(--grey-800, #242426);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+
+    .chatbot-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 18px 8px 10px;
+      .robot {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .avatar {
+          width: 38px;
+          height: 38px;
+          border-radius: 50%;
+          overflow: hidden;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        p {
+          font-family: "GeneralSans-Semibold";
+          font-size: 16px;
+          color: $white02;
+          text-transform: capitalize;
+        }
+      }
+      .close {
+        cursor: pointer;
+        float: right !important;
+      }
+    }
+    hr {
+      margin: 0;
+      color: $white01
+    }
+
+    .chat-container {
+        flex-direction: column;
+        display: flex;
+        gap: 9px;
+        height: calc(100% - 5rem);
+        overflow: hidden;
+        padding: 35px 25px 21px;
+        overflow-y: auto;
+
+        &::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: rgba(52, 52, 59, 0.342);
+            border-radius: 4px;
+        }
+
+        &:hover::-webkit-scrollbar-thumb {
+            background-color: rgba(51, 50, 50, 0.308);
+        }
+
+        .bot {
+            display: flex;
+            gap: 10px;
+
+            .text {
+                background-color: rgba(52, 52, 59, 0.342);
+                padding: 10px 14px;
+                max-width: 70%;
+                border-radius: 12px 12px 12px 0px;
+                border: 1px solid var(--Stroke-1, #444446);
+                background: var(--Surface-Primary, #242426);
+
+                p {
+                    color: #fff;
+                    font-size: 14px;
+                }
+            }
+
+            .avatar {
+                width: 38px;
+                height: 38px;
+                border-radius: 50%;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        .user {
+            display: flex;
+            justify-content: flex-end;
+
+            .text {
+                padding: 14px;
+                border-radius: 8px;
+                max-width: 75%;
+                border-radius: 12px 12px 0px 12px;
+                border: 1px solid var(--Stroke-1, #444446);
+                background: #1B1B1B;
+
+                p {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .send-chat {
+        height: 5.5rem;
+        background: var(--Surface-Primary, #242426);
+        padding: 12px 10px;
+        form {
+            display: flex;
+            justify-content: flex-end;
+
+            input {
+                height: 100%;
+                width: 100%;
+                border-radius: 10px;
+                padding: 16px;
+                border: none;
+                font-size: 14px;
+                background-color: rgba(58, 58, 59, 0.342);
+                color: #fff;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+
+            .send-icon {
+                position: absolute;
+                margin-top: 6px;
+                margin-right: 7px;
+
+                button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    cursor: pointer;
+
+                    img {
+                        width: 24px;
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,42 @@
+@import "./sections/landing/landing-hero";
+@import "./sections/landing/landing-about.scss";
+@import "./sections/landing/landing-tarif.scss";
+@import "./sections/landing/landing-angel.scss";
+@import "./sections/landing/landing-about";
+@import "./sections/landing/landing-footer";
+
+.landing {
+    width: 100%;
+    overflow: hidden;
+}
+
+.brands {
+    position: relative;
+    z-index: 200;
+    top: -2px;
+    width: 100%;
+    padding: 15px 0;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        animation: scrollLeft 13s linear infinite;
+        height: 100%;
+        gap: 110px;
+
+        img {
+            width: 68px;
+        }
+    }
+}
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

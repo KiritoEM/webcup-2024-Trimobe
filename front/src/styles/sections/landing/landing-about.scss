@@ -1,0 +1,30 @@
+.landing__about {
+    width: 100%;
+    background-color: $black01;
+    padding: 86px 147px;
+
+    .about-content {
+
+        .header h2 {
+            font-size: 50px;
+            width: 464px;
+            font-family: "CalSans-Semibold";
+            background: var(--primary-linear, linear-gradient(171deg, #FBFBFB 6.58%, #B3B3B3 187.51%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            span {
+                font-family: "CalSans-Semibold";
+                background: $yellow01;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+        .row {
+            margin-top: 20px;
+        }
+    }
+}
