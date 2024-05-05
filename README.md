@@ -14,6 +14,7 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
 - React JS, Typescript JS, Vite JS, Sass, boostrap pour le côté client
 - Node JS, Express JS, mongoDB pour le côté serveur
 - python, flask, tensorflow pour l' Intelligence Artificielle Metatron
+- Figma, Adobe Illustrator pour la réalisation de la maquette
   
 ## Prérequis pour lancer notre site web en local
 - Node.js
@@ -27,29 +28,42 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
    ```bash
    git clone https://github.com/KiritoEM/webcup-2024-Trimobe
 
-3. Installer les packages de React TS et le lancer
 
-    ```bash
-      cd front
-      npm install
-      npm run dev
-
-3. Installer les packages de node JS et le lancer
-
-    ```bash
-      cd backend
-      npm install
-      npm run dev
+2. Confguration du coté serveur
+     - ```bash
+        cd backend
+  
+     - Créer un fichier .env
+       ```bash
+         PORT=<port>
+         MONGODB_URI_ONLINE=mongodb+srv://<username>:<password>@cluster0.pjbqsve.mongodb.net/trimobe?retryWrites=true&w=majority&appName=Cluster0
+         MONGODB_URI_LOCAL=mongodb://127.0.0.1:27017/<bdname>
+         SECRET_KEY=<secret_key>
+       ```
+       
+     - Installer les dépendences et lancer l'application
+       ```bash
+         npm install
+         npm run dev
     
-4. Pour utiliser React TS en local avec node JS
-
-     dans /front/src/services/authServices.ts, remplacer es URL  "https://trimobe.madagascar.webcup.hodi.host/api/auth/register" et "https://trimobe.madagascar.webcup.hodi.host/api/auth/login"  par :
+3. Confguration du coté client
+     - ```bash
+        cd front
+       
+     - changer les url suivant dans le fichier "authServices.ts" si vous voulez utiliser le serveur local:
+       ```bash
+         "https://trimobe.madagascar.webcup.hodi.host/api/auth/register" => "http://localhost:<port>/api/auth/register"
+         "https://trimobe.madagascar.webcup.hodi.host/api/auth/login" => "http://localhost:<port>/api/auth/login"
+       ```
+       
+     - Installer les dépendences et lancer l'application
       ```bash
-     http://localhost:3003/api/auth/register dans la fonction signup
-     http://localhost:3003/api/auth/login dans la fonction login
+         npm install
+         npm run dev
+
 
 ## Membres de l' équipe Trimobe
-- MAHAZARA Ginot d'avis 
-- RAKOTOMALALA Herifanantenana andriantseheno  
-- EMADISSON Nirina johannès loick 
-- RABEMANANTSOA Sedra ny aina 
+- [MAHAZARA Ginot d'avis](https://www.facebook.com/junnotdavis.mahazara) 
+- [RAKOTOMALALA Herifanantenana andriantseheno](https://www.facebook.com/herifanantenana.rakotomalala)  
+- [EMADISSON Nirina johannès loick](https://www.facebook.com/profile.php?id=100087576726611) 
+- [RABEMANANTSOA Sedra ny aina](https://www.facebook.com/leboss214)
