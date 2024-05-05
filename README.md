@@ -11,9 +11,9 @@ En plus des interventions individuelles, Divine Delivery propose des espaces de 
 Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a besoin, quand il en a besoin, offrant ainsi un nouveau niveau de confort, de guérison et d'inspiration dans la vie de tous les jours
 
 ## Technologies utilisées pour la création de notre site web
-- React JS, Typescript JS ,Vite JS , Sass , boostrap pour le côté client
+- React JS, Typescript JS, Vite JS, Sass, boostrap pour le côté client
 - Node JS, mongoDB pour le côté serveur
-- python , flask , tensorflow pour l' Intelligence Artificielle
+- python, flask, tensorflow pour l' Intelligence Artificielle
   
 ## Prérequis pour lancer notre site web en local
 - Node.js
