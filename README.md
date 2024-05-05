@@ -27,6 +27,13 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
       cd front
       npm install
       npm run dev
+
+3. Installer les packages de node JS et le lancer
+
+    ```bash
+      cd backend
+      npm install
+      npm run dev
     
 4. Pour utiliser React TS en local avec node JS
 
