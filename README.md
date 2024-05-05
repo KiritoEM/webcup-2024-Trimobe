@@ -17,6 +17,7 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
   
 ## Prérequis pour lancer notre site web en local
 - Node.js
+- MongoDB
 - npm 
 
 ## Installation pour tester le site en local
