@@ -14,7 +14,7 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
 - Node.js
 - npm 
 
-## Installation
+## Installation pour tester le site en local
 
 1. Cloner le projet depuis GitHub :
    ```bash
