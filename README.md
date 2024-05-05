@@ -8,7 +8,7 @@ Les services de Divine Delivery sont conçus pour répondre à une variété de 
 
 En plus des interventions individuelles, Divine Delivery propose des espaces de discussion virtuels où les utilisateurs peuvent échanger avec d'autres personnes confrontées à des défis similaires, créant ainsi une communauté de soutien bienveillante et inspirante.
 
-Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a besoin, quand il en a besoin, offrant ainsi un nouveau niveau de confort, de guérison et d'inspiration dans la vie de tous les jours
+Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a besoin, quand il en a besoin, offrant ainsi un nouveau niveau de confort, de guérison et d'inspiration dans la vie de tous les jours.
 
 ## Technologies utilisées pour la création de notre site web
 - React JS, Typescript, Vite JS, Sass, boostrap pour le côté client
