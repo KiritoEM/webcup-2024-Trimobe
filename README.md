@@ -63,7 +63,7 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
 
 
 ## Membres de l' équipe Trimobe
-- [MAHAZARA Ginot d'avis](https://www.facebook.com/junnotdavis.mahazara) 
-- [RAKOTOMALALA Herifanantenana andriantseheno](https://www.facebook.com/herifanantenana.rakotomalala)  
-- [EMADISSON Nirina johannès loick](https://www.facebook.com/profile.php?id=100087576726611) 
-- [RABEMANANTSOA Sedra ny aina](https://www.facebook.com/leboss214)
+- [MAHAZARA Ginot D'Avis](https://www.facebook.com/junnotdavis.mahazara) 
+- [RAKOTOMALALA Herifanantenana Andriantseheno](https://www.facebook.com/herifanantenana.rakotomalala)  
+- [EMADISSON Nirina Johannès Loick](https://www.facebook.com/profile.php?id=100087576726611) 
+- [RABEMANANTSOA Sedra Ny Aina Barthélemy](https://www.facebook.com/leboss214)
