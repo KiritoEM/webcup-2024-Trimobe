@@ -10,7 +10,7 @@ En plus des interventions individuelles, Divine Delivery propose des espaces de 
 
 Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a besoin, quand il en a besoin, offrant ainsi un nouveau niveau de confort, de guérison et d'inspiration dans la vie de tous les jours
 
-## Prérequis pour lancer notre site web
+## Prérequis pour lancer notre site web en local
 - Node.js
 - npm 
 
@@ -18,4 +18,9 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
 
 1. Cloner le projet depuis GitHub :
    ```bash
-   git clone https://github.com/votre-utilisateur/votre-projet.git
+   git clone [https://github.com/votre-utilisateur/votre-projet.git](https://github.com/KiritoEM/webcup-2024-Trimobe)
+
+2. Installer les packages de React TS
+ ```bash
+   cd front
+   npm install
