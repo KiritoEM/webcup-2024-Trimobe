@@ -1,4 +1,4 @@
-![Texte alternatif](front/public/logo.png)
+![Texte alternatif](front/public/logo.svg)
 # Divine Delivery
 
 ## Description du site web
