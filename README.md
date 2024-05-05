@@ -11,9 +11,9 @@ En plus des interventions individuelles, Divine Delivery propose des espaces de 
 Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a besoin, quand il en a besoin, offrant ainsi un nouveau niveau de confort, de guérison et d'inspiration dans la vie de tous les jours
 
 ## Technologies utilisées pour la création de notre site web
-- React JS, Typescript JS, Vite JS, Sass, boostrap pour le côté client
+- React JS, Typescript, Vite JS, Sass, boostrap pour le côté client
 - Node JS, Express JS, mongoDB pour le côté serveur
-- python, flask, tensorflow pour l' Intelligence Artificielle Metatron
+- Python, Plask, Tensorflow pour l' Intelligence Artificielle Metatron
 - Figma, Adobe Illustrator pour la réalisation de la maquette
   
 ## Prérequis pour lancer notre site web en local
@@ -29,7 +29,7 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
    git clone https://github.com/KiritoEM/webcup-2024-Trimobe
 
 
-2. Confguration du coté serveur
+2. Configuration du coté serveur
      - ```bash
         cd backend
   
@@ -46,11 +46,11 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
          npm install
          npm run dev
     
-3. Confguration du coté client
+3. Configuration du coté client
      - ```bash
         cd front
        
-     - changer les url suivant dans le fichier "authServices.ts" si vous voulez utiliser le serveur local:
+     - changer les url suivants dans le fichier "authServices.ts" si vous voulez utiliser le serveur local:
        ```bash
          "https://trimobe.madagascar.webcup.hodi.host/api/auth/register" => "http://localhost:<port>/api/auth/register"
          "https://trimobe.madagascar.webcup.hodi.host/api/auth/login" => "http://localhost:<port>/api/auth/login"
