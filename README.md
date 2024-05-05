@@ -18,7 +18,7 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
 
 1. Cloner le projet depuis GitHub :
    ```bash
-   git clone [https://github.com/votre-utilisateur/votre-projet.git](https://github.com/KiritoEM/webcup-2024-Trimobe)
+   git clone [https://github.com/KiritoEM/webcup-2024-Trimobe](https://github.com/KiritoEM/webcup-2024-Trimobe)
 
 2. Installer les packages de React TS
     ```bash
