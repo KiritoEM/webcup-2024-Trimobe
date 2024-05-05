@@ -12,8 +12,8 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
 
 ## Technologies utilisées pour la création de notre site web
 - React JS, Typescript JS, Vite JS, Sass, boostrap pour le côté client
-- Node JS, mongoDB pour le côté serveur
-- python, flask, tensorflow pour l' Intelligence Artificielle
+- Node JS, Express JS, mongoDB pour le côté serveur
+- python, flask, tensorflow pour l' Intelligence Artificielle Metatron
   
 ## Prérequis pour lancer notre site web en local
 - Node.js
