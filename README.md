@@ -37,7 +37,7 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
     
 4. Pour utiliser React TS en local avec node JS
 
-     dans /front/src/services/authServices, remplacer l' URL hébergé par :
+     dans /front/src/services/authServices.ts, remplacer l' URL "https://trimobe.madagascar.webcup.hodi.host/api/auth/login" et "https://trimobe.madagascar.webcup.hodi.host/api/auth/register" par :
       ```bash
      http://localhost:3003/api/auth/register dans la fonction signup
      http://localhost:3003/api/auth/login dans la fonction login
