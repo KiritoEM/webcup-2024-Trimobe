@@ -1,4 +1,4 @@
-![Texte alternatif](front/public/logo.svg)
+![Texte alternatif](front/public/logo.png)
 # Divine Deliveries
 
 ## Description
