@@ -12,7 +12,7 @@ Avec Divine Delivery, chaque individu peut accéder à l'aide divine dont il a b
 
 ## Technologies utilisées pour la création de notre site web
 - React Js, Typescript JS ,Vite JS , Sass , boostrap pour le côté client
-- Node Js, mongoSB pour le côté serveur
+- Node Js, mongoDB pour le côté serveur
 - python , flask , tensorflow pour l' Intelligence Artificielle
   
 ## Prérequis pour lancer notre site web en local
